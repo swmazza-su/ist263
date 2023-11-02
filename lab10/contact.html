@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="styles.css">
+        <style>
+            body {font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;}
+            .nav {background-color: rgb(176, 189, 246);}
+            .part1 {
+                display: flex;
+                background-color: #ffffff;
+                border-radius: 1em;
+                padding: 10px;
+                margin: 10px;
+            }
+            .address, .links {margin: 10px;}
+            .address {flex: 1;}
+            .links {flex: 1;}
+
+            .part2 {
+                display: flex;
+                background-color: #ffffff;
+                border-radius: 1em;
+                padding: 20px;
+                margin: 10px;
+            }
+            .form, .map {margin: 10px;}
+            .form {flex: 1;}
+            .form {flex: 1;}
+            .clear {clear: both;}
+        </style>
+    </head>
+    <body>
+        <nav class="nav">
+            <a href="index.html">Home</a> | 
+            <a href="skills.html">Skills</a> | 
+            <a href="contact.html">Contact</a>
+        </nav>
+        <h1>Contact</h1>
+        <div class="part1">
+            <div class="address">
+                <h2>Address</h2>
+                <p>Sean Mazza<br>
+                250 Small Rd, Syracuse NY 13244</p>
+            </div>
+        
+            <div class="links">
+                <a href="mailto:swmazza@syr.edu">Sean Mazza Email</a><br>
+       
+                <a target="_blank" href="http://www.linkedin.com/in/seanmazza"><img src="../images/logo-sized.png" alt="LinkedIn Logo"/></a>
+                <a href="http://www.linkedin.com/in/seanmazza" target="_blank">My LinkedIn Profile</a>
+            </div>
+        </div>
+        <br>
+
+        <div class="clear"></div>
+        <div class="part2">
+            <div class="form">
+                <form action="https://formspree.io/f/xknlqqnq" method="post">
+                    <label for="fullname">Your Name:</label>
+                    <input type="text" id="fullname" name="fullname"><br>
+                    <br><label>Reason for Contact:</label><br>
+                    <input type="radio" id="question" name="questioncomment" value="question">
+                    <label for="question">Question</label><br>
+                    <input type="radio" id="comment" name="questioncomment" value="comment">
+                    <label for="comment">Comment</label><br>
+                    <br><label>Additional Comments:</label><br>
+                    <textarea id="instructions" name="instructions" rows="3" cols="45">
+                    </textarea><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.9609184162327!2d-76.12285652385636!3d43.021209771139205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f362cc9999b1%3A0xae9139276b7d0e8c!2s250%20Small%20Rd%2C%20Syracuse%2C%20NY%2013210!5e0!3m2!1sen!2sus!4v1694716423903!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </body>
+</html>
