@@ -13,7 +13,7 @@ nav a:hover {background-color: #EAD7BB;}
 nav {padding:10px;}
 nav {margin-bottom:30px;}
 
-@media screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
     .nav a {
         display: block;
         margin: 8px
