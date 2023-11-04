@@ -16,7 +16,7 @@ nav {margin-bottom:30px;}
 @media screen and (max-width: 800px) {
     .nav a {
         display: block;
-        margin: 8px;
+        margin: 8px
     }
     span {display: none;}
 }
