@@ -65,14 +65,21 @@
                 <form action="https://formspree.io/f/xknlqqnq" method="post">
                     <label for="fullname">Your Name:</label>
                     <input type="text" id="fullname" name="fullname"><br>
+
                     <br><label>Reason for Contact:</label><br>
-                    <input type="radio" id="question" name="questioncomment" value="question">
+                    
+                    <fieldset>
+                    <input type="radio" id="question" name="questioncomment" value="question"> 
                     <label for="question">Question</label><br>
+                    </fieldset>
+
                     <input type="radio" id="comment" name="questioncomment" value="comment">
                     <label for="comment">Comment</label><br>
+
                     <br><label for="instructions">Additional Comments:</label><br>
                     <textarea id="instructions" name="instructions" rows="3" cols="45">
                     </textarea><br>
+
                     <input type="submit" value="Submit">
                 </form>
             </div>
