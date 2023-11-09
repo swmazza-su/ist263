@@ -32,5 +32,5 @@ nav {margin-bottom:30px;}
     }
     
     .skip:focus {
-        left: 10px; /* bring it back when it's been tabbed to */
+        left: 10px;
     }
