@@ -1,0 +1,36 @@
+body {
+    background-color: #f6f0d9;
+ 
+}
+
+p {color: #302d25;}
+h1,h2,li,td,th {color: #4c4730;}
+a:before {color: #113946;}
+
+nav a {color:#10402d}
+nav a:hover {background-color: #EAD7BB;}
+
+nav {padding:10px;}
+nav {margin-bottom:30px;}
+
+@media only screen and (max-width: 800px) {
+    .nav a {
+        display: block;
+        margin: 8px
+    }
+    span {display: none;}
+}
+
+.skip {
+    background-color: #ffbf00;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px; 
+    }
+    
+    .skip:focus {
+        left: 10px; /* bring it back when it's been tabbed to */
+    }
