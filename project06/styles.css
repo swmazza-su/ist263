@@ -53,3 +53,11 @@ footer div {margin-left: 8px; margin-right: 8px; justify-content: center;}
 .skip:focus {
     left: 10px;
 }
+
+@media only screen and (max-width: 800px) {
+    .nav a {
+        display: block;
+        margin: 8px
+    }
+    span {display: none;}
+}
