@@ -1,7 +1,9 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
     background-color: #f4efde;
-    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
 }
 
 nav {
@@ -35,4 +37,19 @@ footer div {margin-left: 8px; margin-right: 8px; justify-content: center;}
 .footer {
     display: flex;
     justify-content: center;
+}
+
+.skip {
+    background-color: #2c240b;
+    color: #d6dadb;
+    padding: 5px;
+    border: 1px solid #000000;
+    text-decoration: none;
+    position: absolute; 
+    top: 10px;
+    left: -999px; 
+}
+    
+.skip:focus {
+    left: 10px;
 }
