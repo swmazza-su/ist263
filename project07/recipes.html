@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's Sips - Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+<style>
+    .intro {
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+        margin: 10px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border: 2px solid #65451F;
+    }
+    .mix {flex: 1; text-align: center;}
+    .mixtext {flex: 2;}
+
+    .favs {
+        display: flex;
+        justify-content: space-between;
+    }
+    .favcontent {
+        margin: 25px;
+        display: block;
+        align-items: center;
+        flex: 1;
+        text-align: center;
+    }
+
+    .favcontent img {
+        width: auto;
+        height: 550px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .try {
+        display: flex;
+    }
+    .honeyalmond, .pbcoffee {
+        flex: 1;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 55px;
+        margin-left: 55px;
+        margin-bottom: 30px;
+        }
+
+    .endnote {
+        display: flex;
+        justify-content: center;
+    }
+    .thanks {
+    text-align: center;
+    }
+    
+    .endform {
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    form {
+        align-items: flex-start;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    label, input[type="text"], input[type="radio"], textarea {
+        margin-bottom: 15px;
+    }
+    .submit {
+        font-family: 'Urbanist', sans-serif;
+        margin: 20px 0;
+        background-color: #3b683c;
+        border-radius: 5px;
+        color: #ffffff;
+        font-size: 16px;
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.4s ease, color 0.4s ease;
+    }
+    .submit:hover {
+        background-color: #ffffff;
+        color: #65451F;
+    }
+    
+    .thanks, .endform {
+        flex: 1;
+    }
+ 
+    textarea {
+        background-color: #f8f8f8;
+        border-radius: 5px;
+    }
+    #name {
+        background-color: #f8f8f8;
+        border-radius: 3px;
+    }
+
+    @media screen and (max-width: 768px) {
+    .try {
+        flex-direction: column;
+    }
+
+    .honeyalmond, .pbcoffee {
+        flex: 1;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 0;
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+
+    .honeyalmond h3, .pbcoffee h3 {
+        margin-bottom: 5px;
+    }
+
+    .honeyalmond p, .pbcoffee p {
+        margin-top: 5px;
+    }
+
+    .endnote {
+        flex-direction: column;
+    }
+    .thanks, .endform {
+        flex: 1;
+        text-align: center;
+    }
+    .endform {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+</style>
+</head>
+<body>
+    <a href="#h1" tabindex="1" class="skip">Skip to Content</a><br>
+    <header class="header">
+        <h1>Sean's Sips</h1>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="topspots.html">Top Spots</a>
+            <a href="recipes.html">Recipes and More</a>
+        </nav>
+    </header>
+
+    <h1 style="text-align: center; margin-bottom: 50px;">Recipes and More</h1>
+    <div class="intro">
+        <h2 class="mix">Mix It Up</h2>
+        <p class="mixtext">As much as some of us like a plain, black cup of coffee, it’s nice to mix it up a little with something sweeter and more extravagant. How to go about this may seem like a lot at first when we think of a barista running around, but anyone at home can make a professional drink. However, in order to do so, you may need a few ingredients, but don’t worry as these are inexpensive!</p>
+    </div>
+
+    <h2 style="text-align: center;">My Favorites</h2>
+    <div class="favs">
+        <div class="favcontent">
+            <h3 style="text-align: center;">Simple and Sweet (Hot)</h3>
+            <img src="../images/projectimages/hotresized.jpg" alt="hot coffee with caramel sauce">
+            <p>Brew any coffee of your choice, I prefer a medium roast. I am specifically using a Summit Roast Kirkland Signature K-Cup Once brewed, pour it into a mug of your choice. Add in any dairy of your choice to the desired color. I personally use Planet Oat oat milk to get a dark-light brown color in my cup. Add in two splashes of sweetened syrup of your choice. My favorite is Torani Salted Caramel which you can find at most grocery stores or TJ Maxx. Based on how sweet you want, add more. With just two splashes of a syrup, we have a nice, lightly sweetened coffee to get our day started, or to pick us up in the afternoon!
+            </p>
+        </div>
+        <div class="favcontent">
+            <h3 style="text-align: center;">Blended Coffee (Cold)</h3>
+            <img src="../images/projectimages/blendedresized.jpg" alt="blended coffee with cream">
+            <p>Brew any coffee of your choice, then let it cool in the fridge. Once chilled, add the coffee to a blender along with as much dairy as desired. If sweetened, add a splash or two of caramel syrup or caramel sauce to help thicken your drink. I enjoy the Dunkin’ caramel swirl as it is a bit thicker, but any caramel sauce from a store will do. Add about a cup of ice. More ice will make for a thicker consistency, I prefer about a cup or less ice. For a sweeter drink, drizzle some caramel on the sides of the cup before pouring in the blended drink and top with sweet cream, as done here. This is a great drink to cool off on a hot day while getting a little boost of energy to keep going.
+            </p>
+        </div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">Try Something New</h2>
+    <div class="try">
+        <div class="honeyalmond">
+            <h3 style="text-align: center;">Honey Almond Milk Flat White (Hot)</h3>
+            <p>This is a simple recipe with a professional looking coffee when finished. Has a great hint of sweetness with the honey used, while not being too sweet. Only 3 ingredients, so it’s easy for all to make! Brew a shot of espresso first. Add 2 teaspoons of honey into the mug and stir. Froth ½ cup almond milk or dairy of choice then pour over the espresso.</p>
+        </div>
+        <div class="pbcoffee">
+            <h3 style="text-align: center;">Peanut Butter Banana Caffinated Smoothie (Cold)</h3>
+            <p>This recipe seems like a great combination of both a coffee and smoothie for a treat to start your morning. I am eager to try this after finding such a unique recipe and hope others will enjoy this too! Start with brewing 1 ½ cups of coffee, then cooling them in the fridge. Then, add 2 tablespoons of peanut butter. Next, add ½ cup whole milk or dairy of your choice. Add about a cup of ice and 2 tablespoons of chocolate syrup. Finally, add a banana and blend! Top with a choice of whipped cream.</p>
+        </div>
+    </div>
+    <hr>
+
+    <h2 style="text-align: center;">Love to Learn</h2>
+    <div class="endnote">
+        <div class="thanks">
+            <p>I am always looking for new ways to mix up some coffee into my day and love to share the ones I love with friends! Feel free to leave any suggestions or recipes you know, as I’d love to try some more.</p>
+        </div>
+        <div class="endform">
+            <form action="https://formspree.io/f/mzblnook" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="Name"><br>
+
+                <label>Do you have a recipe or other suggestions?</label><br>
+                <input type="radio" id="recipe" name="Recipe or Suggestion" value="Recipe">
+                <label for="recipe">Recipe</label><br>
+                <input type="radio" id="suggestion" name="Recipe or Suggestion" value="Suggestion">
+                <label for="suggestion">Suggestion</label><br>
+                
+                <label>Write Below</label><br>
+                <textarea id="textfield" name="Text Area" rows="5" cols="50"></textarea><br>
+                <input type="submit" value="Submit" class="submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&#169 2023 Sean Mazza | <a href="mailto:swmazza@syr.edu">swmazza@syr.edu</a></p>
+        </div>
+    </footer>
+</body>
+</html>

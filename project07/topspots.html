@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sean's Sips - Top Spots</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <style>
+        h1 {text-align: center;}
+        .kubal {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+        .kubaltext {
+            flex-grow: 1;
+        }
+        .topspotimage img {
+            max-width: 200%;
+            height: auto;
+            margin-top: 20px;
+            margin-right: 40px;
+        }
+        .topspotimage {
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+
+        .recess {
+            margin: 20px;
+            margin-top: 50px;
+            display: flex;
+            align-items: center;
+        }
+
+        .dunkin {
+            margin: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            text-align: center;
+
+        }
+        .ctspots {
+            margin: 20px;
+            display: block;
+            flex: 1;
+
+        }
+        .ctspots img {
+            width: 400px;
+            height: auto;
+            justify-content: center;
+            align-items: center;
+        }
+        @media (max-width: 600px) {
+            .topspotimage img,
+            .recess img,
+            .dunkin img,
+            .ctspots img {
+                max-width: 100%;
+                margin-top: 20px;
+                margin-right: 0;
+            }
+            .kubal,
+            .recess,
+            .dunkin,
+            .ctspots {
+                flex-direction: column;
+                text-align: left;
+            }
+            .container,
+            .ctspots {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <a href="#h1" tabindex="1" class="skip">Skip to Content</a><br>
+    <header class="header">
+        <h1 id="h1">Sean's Sips</h1>
+        <nav class="nav">
+            <a href="home.html">Home</a>
+            <a href="topspots.html">Top Spots</a>
+            <a href="recipes.html">Recipes and More</a>
+        </nav>
+    </header>
+
+    <h1 style="text-align: center;">Top Spots</h1>
+    <div class="kubal">
+        <div class="topspotimage">
+            <img src="../images/projectimages/kubaloutside.jpeg" class="kubaloutside" alt="cafe kubal syracuse outside">
+        </div>
+        <div class="kubaltext">
+            <h2>Café Kubal</h2>   
+            <p>This shop has such a pleasing and comforting aesthetic even when just walking up to it. The welcoming environment was then met with a wonderful, strong cold brew with oat milk. Though I hadn’t tried it, the paninis looked delicious with the turkey, bacon, and apple being a popular item there. I really loved the overall atmosphere in the shop and look forward to coming back again for another coffee and to sit and do schoolwork.</p>
+        </div>
+    </div>
+
+    <div class="recess">
+        <div class="topspotimage">
+            <img src="../images/projectimages/recessoutside.jpeg" class="recessoutside" alt="front of recess coffee in syracuse">
+        </div>
+        <div>
+            <h2>Recess Coffee</h2>
+            <p>This coffee shop gave another homey feeling when stepping inside with the menus scattered across the chalkboards. I wanted to try something different here as they had many options, and the oat milk latte with Nutella was delicious. This was such a unique spot with lots of fun add-ins for different drinks. Recess’ coffee can also be found around Syracuse in shops like Dewitt Bagel Co. as well!</p>
+        </div>
+    </div>
+
+    <div class="dunkin">
+        <div class="topspotimage">
+            <img src="../images/projectimages/dunkinsyracuse.jpeg" class="dunkinoutside" alt="front of dunkin erie blvd e syracuse">
+        </div>
+        <div>
+            <h2>Dunkin' Erie Blvd E</h2>
+            <p>Though this is a chain, I’m from New England so I may be biased, but this Dunkin’ always does a great job. No matter what order or combination I get, it is never too sweet or have a burned flavor to the coffee like other Dunkin’s might. I am always pleased with my go to iced coffee with oat milk and caramel.</p>
+        </div>
+    </div>
+    <hr>
+
+    <h1 style="margin-bottom: 50px; margin-top: 50px;">Top Spots From Home - CT</h1>
+    <div class="container">
+        <div class="ctspots">
+            <img src="../images/projectimages/neils.jpeg" alt="front of neils donuts ct">
+            <h2>Neil's Donuts</h2>
+            <p>This shop is always busy, especially in the morning since it is very popular with people in the surrounding towns. Neil’s is located in Middletown, CT (central CT) and is known for their homemade donuts. They have many unique flavor donuts such as coconut cream, peanut butter cup, and blueberry cobbler. I love their coffee here as they have many different flavored roasts and syrups to add. My favorite combination from this coffee shop is the French toast syrup in an iced coffee with a maple donut to go with it. Neil’s is my go-to for mornings before work or anytime really!</p>
+        </div>
+        <div class="ctspots">
+            <img src="../images/projectimages/starbucks.jpeg" alt="front of starbucks">
+            <h2>Starbucks</h2>
+            <p>My favorite Starbucks near my home is also in Middletown, CT. Again, though this is a chain, the coffee is always made so well at this location, especially compared to others near me. My favorite drink from Starbucks is definitely the Salted Caramel Cream Cold Brew as it is a stronger coffee, with just a hint of sweet as the cold foam seeps into the cup.</p>
+        </div>
+        <div class="ctspots">
+            <img src="../images/projectimages/dunkinct.jpeg" alt="front of dunkin go">
+            <h2>Dunkin'</h2>
+            <p>This is my favorite location of Dunkin', located in my hometown of Portland CT, nextdoor to Middletown. Though this is a chain as well, the employees at this Dunkin' never fail to make the best drinks with the perfect amounts of anything requested. This is my go to spot in a pinch or especially for an afternoon pick-me-up. This is a Dunkin' Go, which means there is no seating inside, but the coffee is still great.</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>&#169 2023 Sean Mazza | <a href="mailto:swmazza@syr.edu">swmazza@syr.edu</a></p>
+        </div>
+    </footer>
+</body>
+</html>
